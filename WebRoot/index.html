@@ -88,7 +88,7 @@
     	  
           function initToolbar() {
         	  try{
-	            tb = new esri.toolbars.Draw(map);
+	            tb = new Draw(map);
 	            tb.on("draw-end", addGraphic);
 	
 	            // event delegation so a click handler is not

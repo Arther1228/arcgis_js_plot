@@ -1,3 +1,4 @@
+dojo.addOnLoad(function () {
 define(
     [
         'dojo/_base/declare',
@@ -176,3 +177,5 @@ define(
             }
         });
     });
+
+});
